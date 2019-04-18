@@ -4,9 +4,10 @@ import router from './router';
 import './registerServiceWorker';
 import HeyUI from 'heyui';
 import 'heyui/themes/index.css';
+import 'normalize.css';
 
 Vue.use(HeyUI);
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
   router,
